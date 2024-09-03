@@ -43,11 +43,6 @@ class ARViewModel: ObservableObject {
             updateModelScale()
         }
     }
-    @Published var modelColor: Color = .white {
-        didSet {
-            updateModelColor()
-        }
-    }
     
     var anchorEntity: AnchorEntity?
     
@@ -74,16 +69,6 @@ class ARViewModel: ObservableObject {
         anchorEntity.scale = [modelScale, modelScale, modelScale]
     }
     
-    func updateModelColor() {
-        guard let anchorEntity = anchorEntity else { return }
-        let material = SimpleMaterial(color: UIColor(modelColor), isMetallic: false)
-        
-        anchorEntity.children.forEach { entity in
-            if let modelEntity = entity as? ModelEntity {
-                modelEntity.model?.materials = [material]
-            }
-        }
-    }
     
     func deleteModel() {
         guard let anchorEntity = anchorEntity else { return }
