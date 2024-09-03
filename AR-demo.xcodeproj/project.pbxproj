@@ -11,6 +11,7 @@
 		D141DA4E2C8769B500815932 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D141DA4D2C8769B500815932 /* ContentView.swift */; };
 		D141DA502C8769B600815932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D141DA4F2C8769B600815932 /* Assets.xcassets */; };
 		D141DA532C8769B600815932 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D141DA522C8769B600815932 /* Preview Assets.xcassets */; };
+		D141DA5A2C87753000815932 /* medical_cart_1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D141DA592C87753000815932 /* medical_cart_1.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D141DA4D2C8769B500815932 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D141DA4F2C8769B600815932 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D141DA522C8769B600815932 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D141DA592C87753000815932 /* medical_cart_1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = medical_cart_1.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		D141DA4A2C8769B500815932 /* AR-demo */ = {
 			isa = PBXGroup;
 			children = (
+				D141DA592C87753000815932 /* medical_cart_1.usdz */,
 				D141DA4B2C8769B500815932 /* AppDelegate.swift */,
 				D141DA4D2C8769B500815932 /* ContentView.swift */,
 				D141DA4F2C8769B600815932 /* Assets.xcassets */,
@@ -127,6 +130,7 @@
 			files = (
 				D141DA532C8769B600815932 /* Preview Assets.xcassets in Resources */,
 				D141DA502C8769B600815932 /* Assets.xcassets in Resources */,
+				D141DA5A2C87753000815932 /* medical_cart_1.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +276,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AR-demo/Preview Content\"";
-				DEVELOPMENT_TEAM = 268K2384XN;
+				DEVELOPMENT_TEAM = 7Q3HT66BT5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -303,7 +307,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AR-demo/Preview Content\"";
-				DEVELOPMENT_TEAM = 268K2384XN;
+				DEVELOPMENT_TEAM = 7Q3HT66BT5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
