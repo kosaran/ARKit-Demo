@@ -121,6 +121,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
+Your Name - [@nexiera](https://twitter.com/kosgumar) - info@nexiera.ca
 
 Project Link: [https://github.com/yourusername/swiftui-arkit-project](https://github.com/yourusername/swiftui-arkit-project)
