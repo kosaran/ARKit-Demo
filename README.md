@@ -117,10 +117,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 - Apple's SwiftUI, ARKit, and RealityKit documentation
-- [Insert any third-party libraries or resources used]
 
 ## Contact
 
-Your Name - [@nexiera](https://twitter.com/kosgumar) - info@nexiera.ca
-
-Project Link: [https://github.com/yourusername/swiftui-arkit-project](https://github.com/yourusername/swiftui-arkit-project)
+Kosaran Gumarathas - [@nexiera](https://twitter.com/kosgumar) - info@nexiera.ca
